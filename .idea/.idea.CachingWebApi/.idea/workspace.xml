@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc43b7a-be58-4292-b532-3b8a25396b05" name="Changes" comment="Add first migration">
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Interfaces/ICacheService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/20221125224552_init.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/20221125224552_init.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Services/CacheService.cs" afterDir="false" />
+    <list default="true" id="fdc43b7a-be58-4292-b532-3b8a25396b05" name="Changes" comment="Caching Service">
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Controllers/DriversController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CachingWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CachingWebApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CachingWebApi/CachingWebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/CachingWebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CachingWebApi/Interfaces/ICacheService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/Interfaces/ICacheService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CachingWebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CachingWebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CachingWebApi/Services/CacheService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/Services/CacheService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,10 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/19ba5a289f2afd3f4d5e862cb3f3efee6181683a31ee31b86c2298b1f51114b/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf7edd5b2738353814f43bb71c24f21ab7bc6f659f6c23ec3ce075b0f3e35c7c/IDatabase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,7 +88,7 @@
       <updated>1669327975530</updated>
       <workItem from="1669327979451" duration="2723000" />
       <workItem from="1669332688733" duration="674000" />
-      <workItem from="1669414212347" duration="2188000" />
+      <workItem from="1669414212347" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="Add packages">
       <created>1669331136304</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669332962865</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Caching Service">
+      <created>1669417768826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669417768826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +134,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add packages" />
     <MESSAGE value="Add first migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first migration" />
+    <MESSAGE value="Caching Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caching Service" />
   </component>
 </project>
