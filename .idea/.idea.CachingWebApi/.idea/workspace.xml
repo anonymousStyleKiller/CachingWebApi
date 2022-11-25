@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc43b7a-be58-4292-b532-3b8a25396b05" name="Changes" comment="Add packages">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CachingWebApi/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CachingWebApi/Models/Driver.cs" afterDir="false" />
+    <list default="true" id="fdc43b7a-be58-4292-b532-3b8a25396b05" name="Changes" comment="Add first migration">
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Interfaces/ICacheService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/20221125224552_init.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/20221125224552_init.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CachingWebApi/Services/CacheService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CachingWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CachingWebApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CachingWebApi/CachingWebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/CachingWebApi.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CachingWebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CachingWebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CachingWebApi/appsettings.json" afterDir="false" />
     </list>
@@ -16,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CachingWebApi">
     <configuration name="CachingWebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CachingWebApi/CachingWebApi.csproj" />
@@ -80,6 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669327975530</updated>
       <workItem from="1669327979451" duration="2723000" />
+      <workItem from="1669332688733" duration="674000" />
+      <workItem from="1669414212347" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="Add packages">
       <created>1669331136304</created>
@@ -88,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669331136304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add first migration">
+      <created>1669332962865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669332962865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +124,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add packages" />
+    <MESSAGE value="Add first migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add first migration" />
   </component>
 </project>
